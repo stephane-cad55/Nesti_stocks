@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Nesti_Stelare/src"/>
+	<classpathentry kind="lib" path="C:/Users/Remi/Desktop/JAR/mysql-connector-java-8.0.22.jar"/>
+	<classpathentry kind="output" path="Nesti_Stelare/bin"/>
+</classpath>

@@ -1,0 +1,10 @@
+ADMINISTRATORS = (Id_administrators COUNTER, is_super_admin LOGICAL, nickname VARCHAR(60), passWord VARCHAR(60));
+PRODUCTS = (Id_products COUNTER, name VARCHAR(60), #Id_administrators);
+UNITY = (Id_unity COUNTER, name VARCHAR(60));
+KITCHEN_UTENSILS = (#Id_products);
+ARTICLES = (Id_articles COUNTER, conditioning VARCHAR(60), weight DECIMAL(15,2), quantity DECIMAL(15,2), state ENUM, #Id_unity, #Id_products, #Id_administrators);
+INGREDIENTS = (#Id_products, expiration_time_limit DATE);
+SUPPLIERS = (Id_suppliers COUNTER, company_name VARCHAR(60), company_street VARCHAR(60), company_city VARCHAR(50), company_cp VARCHAR(50), contact_name VARCHAR(60), contact_firstName VARCHAR(60), tel_number INT, state ENUM, #Id_administrators);
+ORDERS = (Id_orders COUNTER, reception_date DATE, state ENUM, date_order DATE, #Id_administrators, #Id_suppliers);
+sell = (#Id_articles, #Id_suppliers, buy_price_article DECIMAL(15,2), updated_date DATE);
+is_contained = (#Id_articles, #Id_orders, quantity INT);

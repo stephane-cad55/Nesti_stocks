@@ -1,0 +1,6 @@
+
+*.class
+
+Nesti_Stelare/.settings/org.eclipse.core.resources.prefs
+
+Nesti_Stelare/src/entity/AdminEntity.java

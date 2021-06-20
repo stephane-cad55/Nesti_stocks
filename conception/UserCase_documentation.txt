@@ -1,0 +1,20 @@
+
+Documention UseCase
+
+- Manage Admin : permet d'ajouter, de mettre à jour ou de supprimer les administrateurs.
+
+- Manage Supplier : permet d'ajouter, de mettre à jour ou de supprimer les fournisseurs.
+
+- Manage Article : permet d'ajouter, de mettre à jour ou de supprimer les articles.
+
+- Manage An Order : permet d'ajouter, de mettre à jour ou de supprimer les commandes.
+
+- Manage Product : permet d'ajouter, de mettre à jour ou de supprimer les produits.
+
+- Connect : permet une connexion et une déconnexion.
+
+- Administrator : Cest lui qui joue sur l'application, c'est à dire qu'il rentre des données et modifie
+les valeurs. Il peut tout gérer sauf la liste des administrateurs.
+
+- Super Admin : Il a les mêmes fonctionnalités que l' « Administrator » sauf qu'il peut aussi gérer la
+liste des adminstrateurs.
