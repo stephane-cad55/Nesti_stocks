@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/72068188/122667514-7f4c7380-d1b3-11eb-9845-8640a75c41b7.png)
+
 <p align="center">
   <img src="https://github.com/lauree-p/Nesti_Stelare/blob/main/img/Nesti_Stelare-logo.png">
 </p>
